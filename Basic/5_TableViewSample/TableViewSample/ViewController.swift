@@ -72,6 +72,5 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         destinationVC.selectedLandmarkImage = chosenLandmarkImage
     }
   }
-  
 }
 
