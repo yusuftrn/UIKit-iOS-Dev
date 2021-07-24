@@ -1,0 +1,6 @@
+framework module Pods_Locatto {
+  umbrella header "Pods-Locatto-umbrella.h"
+
+  export *
+  module * { export * }
+}

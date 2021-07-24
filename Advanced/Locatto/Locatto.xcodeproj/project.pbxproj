@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		342851251DE4371263A1DE47 /* Pods_Locatto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5978B036499227C33A9CB667 /* Pods_Locatto.framework */; };
+		882226912683CBC600C4039A /* AddPlaceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882226902683CBC600C4039A /* AddPlaceVC.swift */; };
+		882226932683CCDA00C4039A /* MapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882226922683CCDA00C4039A /* MapVC.swift */; };
+		882226952683D6D700C4039A /* DetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882226942683D6D700C4039A /* DetailsVC.swift */; };
+		882226982683D93D00C4039A /* PlaceData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 882226972683D93D00C4039A /* PlaceData.swift */; };
+		885C970D267C16B300E328E2 /* PlacesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 885C970C267C16B300E328E2 /* PlacesVC.swift */; };
+		8896013E267BF9AA0094818C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8896013D267BF9AA0094818C /* AppDelegate.swift */; };
+		88960140267BF9AA0094818C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8896013F267BF9AA0094818C /* SceneDelegate.swift */; };
+		88960142267BF9AA0094818C /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88960141267BF9AA0094818C /* SignUpVC.swift */; };
+		88960145267BF9AA0094818C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88960143267BF9AA0094818C /* Main.storyboard */; };
+		88960147267BF9AB0094818C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88960146267BF9AB0094818C /* Assets.xcassets */; };
+		8896014A267BF9AB0094818C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88960148267BF9AB0094818C /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		152B2AD93A7AEB7E58C5DD9D /* Pods-Locatto.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Locatto.release.xcconfig"; path = "Target Support Files/Pods-Locatto/Pods-Locatto.release.xcconfig"; sourceTree = "<group>"; };
+		5978B036499227C33A9CB667 /* Pods_Locatto.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Locatto.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		882226902683CBC600C4039A /* AddPlaceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlaceVC.swift; sourceTree = "<group>"; };
+		882226922683CCDA00C4039A /* MapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapVC.swift; sourceTree = "<group>"; };
+		882226942683D6D700C4039A /* DetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsVC.swift; sourceTree = "<group>"; };
+		882226972683D93D00C4039A /* PlaceData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceData.swift; sourceTree = "<group>"; };
+		885C970C267C16B300E328E2 /* PlacesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesVC.swift; sourceTree = "<group>"; };
+		8896013A267BF9AA0094818C /* Locatto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locatto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8896013D267BF9AA0094818C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8896013F267BF9AA0094818C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		88960141267BF9AA0094818C /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		88960144267BF9AA0094818C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88960146267BF9AB0094818C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88960149267BF9AB0094818C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8896014B267BF9AB0094818C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B095F9B4FA779363E3311096 /* Pods-Locatto.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Locatto.debug.xcconfig"; path = "Target Support Files/Pods-Locatto/Pods-Locatto.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88960137267BF9AA0094818C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				342851251DE4371263A1DE47 /* Pods_Locatto.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		882226962683D92E00C4039A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				882226972683D93D00C4039A /* PlaceData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		885C970B267C169B00E328E2 /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				885C970C267C16B300E328E2 /* PlacesVC.swift */,
+				882226902683CBC600C4039A /* AddPlaceVC.swift */,
+				882226922683CCDA00C4039A /* MapVC.swift */,
+				882226942683D6D700C4039A /* DetailsVC.swift */,
+			);
+			path = TableView;
+			sourceTree = "<group>";
+		};
+		88960131267BF9AA0094818C = {
+			isa = PBXGroup;
+			children = (
+				8896013C267BF9AA0094818C /* Locatto */,
+				8896013B267BF9AA0094818C /* Products */,
+				9F3E816A62A9DB87D0B483F5 /* Pods */,
+				CC076EE9A601EAE1D0FCD2DD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8896013B267BF9AA0094818C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8896013A267BF9AA0094818C /* Locatto.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8896013C267BF9AA0094818C /* Locatto */ = {
+			isa = PBXGroup;
+			children = (
+				882226962683D92E00C4039A /* Model */,
+				885C970B267C169B00E328E2 /* TableView */,
+				8896013D267BF9AA0094818C /* AppDelegate.swift */,
+				8896013F267BF9AA0094818C /* SceneDelegate.swift */,
+				88960141267BF9AA0094818C /* SignUpVC.swift */,
+				88960143267BF9AA0094818C /* Main.storyboard */,
+				88960146267BF9AB0094818C /* Assets.xcassets */,
+				88960148267BF9AB0094818C /* LaunchScreen.storyboard */,
+				8896014B267BF9AB0094818C /* Info.plist */,
+			);
+			path = Locatto;
+			sourceTree = "<group>";
+		};
+		9F3E816A62A9DB87D0B483F5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B095F9B4FA779363E3311096 /* Pods-Locatto.debug.xcconfig */,
+				152B2AD93A7AEB7E58C5DD9D /* Pods-Locatto.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CC076EE9A601EAE1D0FCD2DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5978B036499227C33A9CB667 /* Pods_Locatto.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88960139267BF9AA0094818C /* Locatto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8896014E267BF9AB0094818C /* Build configuration list for PBXNativeTarget "Locatto" */;
+			buildPhases = (
+				AA3B604B82ECA138AD9D4D4A /* [CP] Check Pods Manifest.lock */,
+				88960136267BF9AA0094818C /* Sources */,
+				88960137267BF9AA0094818C /* Frameworks */,
+				88960138267BF9AA0094818C /* Resources */,
+				D64411970802202C302C8D58 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Locatto;
+			productName = Locatto;
+			productReference = 8896013A267BF9AA0094818C /* Locatto.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88960132267BF9AA0094818C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					88960139267BF9AA0094818C = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 88960135267BF9AA0094818C /* Build configuration list for PBXProject "Locatto" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88960131267BF9AA0094818C;
+			productRefGroup = 8896013B267BF9AA0094818C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88960139267BF9AA0094818C /* Locatto */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88960138267BF9AA0094818C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8896014A267BF9AB0094818C /* LaunchScreen.storyboard in Resources */,
+				88960147267BF9AB0094818C /* Assets.xcassets in Resources */,
+				88960145267BF9AA0094818C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AA3B604B82ECA138AD9D4D4A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Locatto-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D64411970802202C302C8D58 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Locatto/Pods-Locatto-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Locatto/Pods-Locatto-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Locatto/Pods-Locatto-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88960136267BF9AA0094818C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88960142267BF9AA0094818C /* SignUpVC.swift in Sources */,
+				882226982683D93D00C4039A /* PlaceData.swift in Sources */,
+				882226932683CCDA00C4039A /* MapVC.swift in Sources */,
+				8896013E267BF9AA0094818C /* AppDelegate.swift in Sources */,
+				885C970D267C16B300E328E2 /* PlacesVC.swift in Sources */,
+				882226952683D6D700C4039A /* DetailsVC.swift in Sources */,
+				882226912683CBC600C4039A /* AddPlaceVC.swift in Sources */,
+				88960140267BF9AA0094818C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		88960143267BF9AA0094818C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88960144267BF9AA0094818C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		88960148267BF9AB0094818C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88960149267BF9AB0094818C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8896014C267BF9AB0094818C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8896014D267BF9AB0094818C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8896014F267BF9AB0094818C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B095F9B4FA779363E3311096 /* Pods-Locatto.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7772ZUX4ZL;
+				INFOPLIST_FILE = Locatto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josh.Locatto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		88960150267BF9AB0094818C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 152B2AD93A7AEB7E58C5DD9D /* Pods-Locatto.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7772ZUX4ZL;
+				INFOPLIST_FILE = Locatto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.josh.Locatto;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88960135267BF9AA0094818C /* Build configuration list for PBXProject "Locatto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8896014C267BF9AB0094818C /* Debug */,
+				8896014D267BF9AB0094818C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8896014E267BF9AB0094818C /* Build configuration list for PBXNativeTarget "Locatto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8896014F267BF9AB0094818C /* Debug */,
+				88960150267BF9AB0094818C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88960132267BF9AA0094818C /* Project object */;
+}
